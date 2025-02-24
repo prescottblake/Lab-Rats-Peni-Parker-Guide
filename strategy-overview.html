@@ -1,0 +1,177 @@
+<!doctype html>
+<!-- Blake Prescott, 2/17/2025 -->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="FIX ME">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Strategy Overview | Lab Rat's Peni Parker Guide</title>
+  </head>
+  <body>
+
+    <audio id="mines-in-place" src="media/mines-in-place.wav" preload="auto"></audio>
+    <audio id="youre-up-little-ones" src="media/youre-up-little-ones.wav" preload="auto"></audio>
+
+    <!-- Bootstrap Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+
+      <a class="navbar-brand" href="index.html"><img src="images/Lab-Rat-home-logo.jpg" class="lab-rat-logo" alt="lab rat logo">Lab Rat's Peni Parker Guide</a>
+
+      <!-- Hamburger menu icon -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls= navbarResponsive aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="strategy-overview.html">Strategy Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matchups.html">Matchups and Pairings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nests.html">Nest Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lineups.html">Mine Lineups</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+  <!-- Header and Hero Image -->
+  <header class="jumbotron-fluid mt-5 pt-3 hero2">
+    <div class="container">
+      <h2 class="barlow-condensed-semibold">Strategy Overview</h2>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container-fluid mt-5">
+
+    <div class="container content hero3">
+
+      <div class="row content-subheader">
+        <h2 class="content-subheader">Gameplay Strategy</h2>
+      </div>
+
+      <div class="row">
+        <div class="col text-content">
+          <p>Peni Parker is a vanguard that specializes in holding space and defensive playmaking.  With strong mobility options to challenge on high ground or backlines, Peni is surprisingly versatile at dealing with threats of all kinds.</p>
+          <img src="images/game-screenshot.jpg" alt="screenshot of gameplay">
+        </div>
+
+        <div class="col text-content">
+          <p>Peni generally wants to avoid being on the front line, and is ill-suited to holding space as a solo vanguard.  Because she lacks abilities that mitigate damage, she instead prefers to hamper enemy movement by denying access to important areas.  This generally takes one of two forms: Establishing a safe zone in your own backline, giving your strategists and DPS a safe place to stand and fight from, or holding a flank/side room that forces multiple enemy players to uproot your defensive setup.  This second option is riskier as you provide less defensive assistance to your team and you are often cutting yourself off from healing resources.  However, the trade-off is that you are a self sufficient nuissance, requiring time and attention from the other team and giving your team the ability to capitalize on the distraction you cause.</p>
+        </div>
+      </div>
+      
+      <div class="row content-subheader">
+        <h2 class="content-subheader">Abilities</h2>
+      </div>
+
+      <div class="row">
+        <div class="col text-content">
+          <h3>Bionic Spider-Nest</h3>
+          <p>Peni's Bionic Spider-Nest is the core to her ability to hold space and deny access to the enemy team.  Learning to protect your nest while getting value out of your web of influence is where Peni's skill expression is most evident.</p>
+          <button id="youre-up-little-ones-btn">You're up, little ones!</button>
+        </div>
+
+        <div class="col">
+          <video controls poster="images/Game-screenshot.jpg">
+            <source src="media/spider-islands-nest.mp4" type="video/mp4">
+            <p>Your browser does not support the video element.</p>
+          </video>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <img src="images/arachno-mines.jpg" alt="arachno-mines on a wall">
+        </div>
+
+        <div class="col text-content">
+          <h3>Arachno-Mines</h3>
+          <p>Bolstering her ability to hold space is her Arachno-Mines, deployable mines that can be used to deny choke points, blast unwary vanguards, and distress or deter flanking DPS heroes.  While these are mostly a defensive tool, throwing a stack of mines into the enemy backline can often lead to a surprise pick onto a strategist.</p>
+          <button id="mines-in-place-btn">Mines in place!</button>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col text-content">
+          <h3>Cyber-Bond</h3>
+          <p>Cyber-Bond is Peni's mobility tool that allows her to rapidly take space or retreat to the safety of her Bionic Spider-Nest setup.  Depending on how effectively you are able to utilize this mobility, Peni players can either be a sitting duck, or an uncatchable nuissance. Notably, this is also one of Peni's abilities that can deploy Cyber-Webs.</p>
+        </div>
+
+        <div class="col">
+          <video controls poster="images/cyber-bond.jpg">
+            <source src="media/cyber-bond.mp4" type="video/mp4">
+            <p>Your browser does not support the video element.</p>
+          </video>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <div class="col">
+            <video controls poster="images/cyber-web-snare.jpg">
+              <source src="media/cyber-web-snare.mp4" type="video/mp4">
+              <p>Your browser does not support the video element.</p>
+            </video>
+          </div>
+        </div>
+
+        <div class="col text-content">
+          <h3>Cyber-Web Snare</h3>
+          <p>The flashiest move in your toolkit is the Cyber-Web Snare. This web snare has two uses, both of which are necessary for efficient and impactful gameplay.  When hitting a surface, this ability deploys a Cyber-Web.  However, you can also hit an enemy player with the Cyber-Web Snare to apply a 0.7 second stun on a short 4 second cooldown.  This can be highly disruptive to tanks attempting to take space or retreat, or crippling as a way to stun enemy players out of their ultimate abilities.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="jumbotron-fluid text-center pt-5">
+
+    <div class="container text-white">
+      <p>&copy; Copyright 2025. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
