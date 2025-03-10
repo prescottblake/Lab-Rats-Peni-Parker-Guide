@@ -41,7 +41,8 @@ nav {
 }
 
 header {
-    background-color: #2C2D33;
+    /*background-color: #2C2D33;*/
+    background-color: #8A201E;
     color: #D29E49;
 }
 
@@ -76,6 +77,7 @@ main {
     color: #000000;
     border-radius: 5px;
     margin-bottom: .25em;
+    box-shadow: 4px 4px black;
 }
 
 .content img {
@@ -99,6 +101,7 @@ div .content-subheader {
 .content .content-header {
     margin: auto;
     padding-left: 1em;
+
 }
 
 .content .content-subheader h2, h3, label, legend{
@@ -112,6 +115,7 @@ div .content-subheader {
 div .toggle-bar {
     margin-top: 0;
     margin-bottom: 0;
+    border-top: 2px solid black;
 }
 
 
@@ -136,6 +140,8 @@ footer {
 
 table {
     background-color: #CCCCCC;
+    font-size: 1.25em;
+    box-shadow: 4px 4px black;
 }
 
 table .vanguard-icon {
