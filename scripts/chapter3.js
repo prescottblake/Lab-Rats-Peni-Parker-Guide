@@ -2,7 +2,14 @@ var promoMessage = "";
 var dateString = "";
 const currDate = new Date();
 const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-dateString += month[currDate.getMonth()] + " " + (currDate.getDate() + 7);
+
+if(currDate.getDate() + 7 > 30) {
+	dateString += month[currDate.getMonth() + 1] + " " + (currDate.getDate() + 7 - 30);
+} else {
+	dateString += month[currDate.getMonth()] + " " + (currDate.getDate() + 7);
+}
+
+
 
 
 promoMessage += "Want a coaching session with the Lab Rat? \r\n";
