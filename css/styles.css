@@ -126,7 +126,9 @@ div .toggle-bar {
     border-top: 2px solid black;
 }
 
-
+#api-data p{
+    display: block;
+}
 
 #matchups-blurb {
     padding: 1em 1em .25em 1em;
