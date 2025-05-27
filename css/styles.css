@@ -123,6 +123,10 @@ div #limited-time-offer {
 div .toggle-bar {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 4px;
+    height: 35px;
+    background-color: #2C2D33;
+    color: white;
     border-top: 2px solid black;
 }
 
@@ -133,6 +137,12 @@ div .toggle-bar {
 #matchups-blurb {
     padding: 1em 1em .25em 1em;
     margin-bottom: .5em;
+}
+
+.accordion-panel {
+    display: none;
+    background-color:#D29E49;
+    padding: 1em;
 }
 
 video {
@@ -160,6 +170,10 @@ table .vanguard-icon {
 
 table td {
     vertical-align: middle;
+}
+
+ul {
+    list-style: none;
 }
 
 /* Style rules for hero image and header */

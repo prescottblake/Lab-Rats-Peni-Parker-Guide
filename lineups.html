@@ -28,8 +28,6 @@
   </head>
   <body>
 
-    <audio id="mines-in-place" src="media/mines-in-place.wav" preload="auto"></audio>
-
     <!-- Bootstrap Navigation Bar -->
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
 
@@ -85,140 +83,154 @@
         </div>
       </div>
 
-      <div class="row content-subheader toggle-bar" onclick="toggleDisplay(`yggdrasil-path-lineups`); toggleDisplay(`yggdrasil-path-lineups2`);">
-        <h2> &#9660; Yggdrasil Path</h2>
-      </div>
-      <div class="row" id="yggdrasil-path-lineups" style="display: none;">
-        <div class="col">
-          <img src="images/yggdrasil-path-lineup-screenshot.jpg" alt="first lineup spot on Yggdrasil Path">
-          <p>Wedge into the corner of the bushes and the building, then aim at the left corner of the small "slit" gap in Yggdrasil.  Set mines.</p>
-        </div>
+      <ul class="accordion">
+        <li>
+          <div class="accordion-control toggle-bar">&#9660;Yggdrasil Path</div>
+          <div class="accordion-panel">
+            <div class="row">
+              <div class="col">
+                <img src="images/yggdrasil-path-lineup-screenshot.jpg" alt="first lineup spot on Yggdrasil Path">
+                <p>Wedge into the corner of the bushes and the building, then aim at the left corner of the small "slit" gap in Yggdrasil.  Set mines.</p>
+              </div>
 
-        <div class="col">
-          <img src="images/yggdrasil-path-lineup-screenshot-destination.jpg" alt="first lineup destination on Yggdrasil Path">
-          <p>Defender respawn path to point</p>
-        </div>
-      </div>
+              <div class="col">
+                <img src="images/yggdrasil-path-lineup-screenshot-destination.jpg" alt="first lineup destination on Yggdrasil Path">
+                <p>Defender respawn path to point</p>
+              </div>
+            </div>
 
-      <div class="row" id="yggdrasil-path-lineups2" style="display: none;">
-        <div class="col">
-          <img src="images/yggdrasil-path-lineup-screenshot2.jpg" alt="second lineup spot on Yggdrasil Path">
-          <p>Find the circular gold platform on left side height out of spawn.  Stand on the nodule closer to the main spawn door.  Aim up at Yggdrasil, and find the lowest small branch.  Follow up to the small fork in the branch, then move your cursor up until you are slightly above the next branch up.  Set mines.</p>
-        </div>
+            <div class="row">
+              <div class="col">
+                <img src="images/yggdrasil-path-lineup-screenshot2.jpg" alt="second lineup spot on Yggdrasil Path">
+                <p>Find the circular gold platform on left side height out of spawn.  Stand on the nodule closer to the main spawn door.  Aim up at Yggdrasil, and find the lowest small branch.  Follow up to the small fork in the branch, then move your cursor up until you are slightly above the next branch up.  Set mines.</p>
+              </div>
 
-        <div class="col">
-          <img src="images/yggdrasil-path-lineup-screenshot-destination2.jpg" alt="second lineup destination on Yggdrasil Path">
-          <p>Outside defender spawn #1</p>
-        </div>
-      </div>
+              <div class="col">
+                <img src="images/yggdrasil-path-lineup-screenshot-destination2.jpg" alt="second lineup destination on Yggdrasil Path">
+                <p>Outside defender spawn #1</p>
+              </div>
+            </div>
 
-      <div class="row content-subheader toggle-bar" onclick="toggleDisplay(`hall-of-djalia-lineups`); toggleDisplay(`hall-of-djalia-lineups2`);">
-        <h2> &#9660; Hall of Djalia</h2>
-      </div>
-      <div class="row" id="hall-of-djalia-lineups" style="display: none;">
-        <div class="col">
-          <img src="images/hall-of-djalia-lineup-screenshot.jpg" alt="first lineup spot on Hall of Djalia">
-          <p>Turn left in spawn room, and jump onto the platform.  Wedge yourself between the pillar and the wall, look up and into the gap where you can see the sky.  Aim to the top right of the leafy plant and set mines.</p>
-        </div>
+          </div>
+        </li>
 
-        <div class="col">
-          <img src="images/hall-of-djalia-lineup-screenshot-destination.jpg" alt="first lineup destination on Hall of Djalia">
-          <p>Point A outside of cart door</p>
-        </div>
-      </div>
+        <li>
+          <div class="accordion-control toggle-bar">&#9660; Hall of Djalia</div>
+          <div class="accordion-panel">
+            <div class="row">
+              <div class="col">
+                <img src="images/hall-of-djalia-lineup-screenshot.jpg" alt="first lineup spot on Hall of Djalia">
+                <p>Turn left in spawn room, and jump onto the platform.  Wedge yourself between the pillar and the wall, look up and into the gap where you can see the sky.  Aim to the top right of the leafy plant and set mines.</p>
+              </div>
 
-      <div class="row" id="hall-of-djalia-lineups2" style="display: none;">
-        <div class="col">
-          <img src="images/hall-of-djalia-lineup-screenshot2.jpg" alt="second lineup spot on Hall of Djalia">
-          <p>Wedge yourself into the corner to the right outside of spawn 2.  Aim up following the right side of the Halo ring until your cursor intersects with the hanging plants.  Set mines.</p>
-        </div>
+              <div class="col">
+                <img src="images/hall-of-djalia-lineup-screenshot-destination.jpg" alt="first lineup destination on Hall of Djalia">
+                <p>Point A outside of cart door</p>
+              </div>
+            </div>
 
-        <div class="col">
-          <img src="images/hall-of-djalia-lineup-screenshot-destination2.jpg" alt="second lineup destination on Hall of Djalia">
-          <p>Bottom staircase in second point choke</p>
-        </div>
-      </div>
+            <div class="row">
+              <div class="col">
+                <img src="images/hall-of-djalia-lineup-screenshot2.jpg" alt="second lineup spot on Hall of Djalia">
+                <p>Wedge yourself into the corner to the right outside of spawn 2.  Aim up following the right side of the Halo ring until your cursor intersects with the hanging plants.  Set mines.</p>
+              </div>
 
-      <div class="row content-subheader toggle-bar" onclick="toggleDisplay(`spider-islands-lineups`); toggleDisplay(`spider-islands-lineups2`);">
-        <h2> &#9660; Spider Islands</h2>
-      </div>
-      <div class="row" id="spider-islands-lineups" style="display: none;">
-        <div class="col">
-          <img src="images/spider-islands-lineup-screenshot.jpg" alt="first lineup spot on Spider Islands">
-          <p>Web out of spawn to behind the sign.  Line up in the center of the sign, then walk backwards until you collide with the wall behind you.  Aim up and use the top of the "/" in your health numbers to line up with the tip of the golden triangle created by the connecting strand between the two web strands.   Set mines. Note: There are lots of variations of this, feel free to mess around.</p>
-        </div>
+              <div class="col">
+                <img src="images/hall-of-djalia-lineup-screenshot-destination2.jpg" alt="second lineup destination on Hall of Djalia">
+                <p>Bottom staircase in second point choke</p>
+              </div>
+            </div>
+          </div>
+        </li>
 
-        <div class="col">
-          <img src="images/spider-islands-lineup-screenshot-destination.jpg" alt="first lineup destination on Spider Islands">
-          <p>Defender holding corner on first point</p>
-        </div>
-      </div>
+        <li>
+          <div class="accordion-control toggle-bar">&#9660; Spider Islands</div>
+          <div class="accordion-panel">
+            <div class="row">
+              <div class="col">
+                <img src="images/spider-islands-lineup-screenshot.jpg" alt="first lineup spot on Spider Islands">
+                <p>Web out of spawn to behind the sign.  Line up in the center of the sign, then walk backwards until you collide with the wall behind you.  Aim up and use the top of the "/" in your health numbers to line up with the tip of the golden triangle created by the connecting strand between the two web strands.   Set mines. Note: There are lots of variations of this, feel free to mess around.</p>
+              </div>
 
-      <div class="row" id="spider-islands-lineups2" style="display: none;">
-        <div class="col">
-          <img src="images/spider-islands-lineup-screenshot2.jpg" alt="second lineup spot on Spider Islands">
-          <p>Climb the wall towards the sign, and wedge yourself in the left corner with the spider web. Aim up at the cracks in the sky and find the dark shard at the 2:00 position.  Follow the bottom edge up until you meet the tip of a triangle below your line.  Line up with that tip, then go slightly to the right.  Set mines.</p>
-        </div>
+              <div class="col">
+                <img src="images/spider-islands-lineup-screenshot-destination.jpg" alt="first lineup destination on Spider Islands">
+                <p>Defender holding corner on first point</p>
+              </div>
+            </div>
 
-        <div class="col">
-          <img src="images/spider-islands-lineup-screenshot-destination2.jpg" alt="second lineup destination on Spider Islands">
-          <p>Food truck outside defender spawn #1</p>
-        </div>
-      </div>
+            <div class="row">
+              <div class="col">
+                <img src="images/spider-islands-lineup-screenshot2.jpg" alt="second lineup spot on Spider Islands">
+                <p>Climb the wall towards the sign, and wedge yourself in the left corner with the spider web. Aim up at the cracks in the sky and find the dark shard at the 2:00 position.  Follow the bottom edge up until you meet the tip of a triangle below your line.  Line up with that tip, then go slightly to the right.  Set mines.</p>
+              </div>
 
-      <div class="row content-subheader toggle-bar" onclick="toggleDisplay(`klyntar-lineups`); toggleDisplay(`klyntar-lineups2`);">
-        <h2> &#9660; Symbiotic Surface</h2>
-      </div>
-      <div class="row" id="klyntar-lineups" style="display: none;">
-        <div class="col">
-          <img src="images/klyntar-lineup-screenshot.jpg" alt="first lineup spot on Symbiotic Surface">
-          <p>Get behind the big tube outside of the choke point. Aim up at the big star in the sky, then follow down and to the left, between the two medium stars.  Any area around there will work. Set mines.</p>
-        </div>
+              <div class="col">
+                <img src="images/spider-islands-lineup-screenshot-destination2.jpg" alt="second lineup destination on Spider Islands">
+                <p>Food truck outside defender spawn #1</p>
+              </div>
+            </div>
+          </div>
+        </li>
 
-        <div class="col">
-          <img src="images/klyntar-lineup-screenshot-destination.jpg" alt="first lineup destination on Symbiotic Surface">
-          <p>On point #1</p>
-        </div>
-      </div>
+        <li>
+          <div class="accordion-control toggle-bar">&#9660; Symbiotic Surface</div>
+          <div class="accordion-panel">
+            <div class="row">
+              <div class="col">
+                <img src="images/klyntar-lineup-screenshot.jpg" alt="first lineup spot on Symbiotic Surface">
+                <p>Get behind the big tube outside of the choke point. Aim up at the big star in the sky, then follow down and to the left, between the two medium stars.  Any area around there will work. Set mines.</p>
+              </div>
 
-      <div class="row" id="klyntar-lineups2" style="display: none;">
-        <div class="col">
-          <img src="images/klyntar-lineup-screenshot2.jpg" alt="second lineup spot on Symbiotic Surface">
-          <p>Square up with the middle of the box to the right of the path.  Aim up and follow the two points of the structure up and aim at the bright medium star.  Drop your cursor below the star and set mines. </p>
-        </div>
+              <div class="col">
+                <img src="images/klyntar-lineup-screenshot-destination.jpg" alt="first lineup destination on Symbiotic Surface">
+                <p>On point #1</p>
+              </div>
+            </div>
 
-        <div class="col">
-          <img src="images/klyntar-lineup-screenshot-destination2.jpg" alt="second lineup destination on Symbiotic Surface">
-          <p>Box near point #1</p>
-        </div>
-      </div>
+            <div class="row">
+              <div class="col">
+                <img src="images/klyntar-lineup-screenshot2.jpg" alt="second lineup spot on Symbiotic Surface">
+                <p>Square up with the middle of the box to the right of the path.  Aim up and follow the two points of the structure up and aim at the bright medium star.  Drop your cursor below the star and set mines. </p>
+              </div>
 
-      <div class="row content-subheader toggle-bar" onclick="toggleDisplay(`midtown-lineups`); toggleDisplay(`midtown-lineups2`);">
-        <h2> &#9660; Midtown</h2>
-      </div>
-      <div class="row" id="midtown-lineups" style="display: none;">
-        <div class="col">
-          <img src="images/midtown-lineup-screenshot.jpg" alt="first lineup spot on Midtown">
-          <p>Center yourself in front of the broken police car to the right of the main gate.  Aim up at the "notch" in the building roof, then up a little farther so that you're just shy of even with the outcropping to the right.  Sort of where the corner points you.  Set mines.</p>
-        </div>
+              <div class="col">
+                <img src="images/klyntar-lineup-screenshot-destination2.jpg" alt="second lineup destination on Symbiotic Surface">
+                <p>Box near point #1</p>
+              </div>
+            </div>
+          </div>
+        </li>
 
-        <div class="col">
-          <img src="images/midtown-lineup-screenshot-destination.jpg" alt="first lineup destination on Midtown">
-          <p>Second corner on point #2</p>
-        </div>
-      </div>
+        <li>
+          <div class="accordion-control toggle-bar">&#9660; Midtown</div>
+          <div class="accordion-panel">
+            <div class="row">
+              <div class="col">
+                <img src="images/midtown-lineup-screenshot.jpg" alt="first lineup spot on Midtown">
+                <p>Center yourself in front of the broken police car to the right of the main gate.  Aim up at the "notch" in the building roof, then up a little farther so that you're just shy of even with the outcropping to the right.  Sort of where the corner points you.  Set mines.</p>
+              </div>
 
-      <div class="row" id="midtown-lineups2" style="display: none;">
-        <div class="col">
-          <img src="images/midtown-lineup-screenshot2.jpg" alt="second lineup spot on Midtown">
-          <p>Set yourself next to the ambulance, clipping into the side-mirror.  Aim up at Avengers tower, where the helipad meets the rest of the building.  Follow that line up until your cursor is equidistant from both the top and first of the corners of the top triangle. </p>
-        </div>
+              <div class="col">
+                <img src="images/midtown-lineup-screenshot-destination.jpg" alt="first lineup destination on Midtown">
+                <p>Second corner on point #2</p>
+              </div>
+            </div>
 
-        <div class="col">
-          <img src="images/midtown-lineup-screenshot-destination2.jpg" alt="second lineup destination on Midtown">
-          <p>Defender walkout on point #3</p>
-        </div>
-      </div>
+            <div class="row">
+              <div class="col">
+                <img src="images/midtown-lineup-screenshot2.jpg" alt="second lineup spot on Midtown">
+                <p>Set yourself next to the ambulance, clipping into the side-mirror.  Aim up at Avengers tower, where the helipad meets the rest of the building.  Follow that line up until your cursor is equidistant from both the top and first of the corners of the top triangle. </p>
+              </div>
+
+              <div class="col">
+                <img src="images/midtown-lineup-screenshot-destination2.jpg" alt="second lineup destination on Midtown">
+                <p>Defender walkout on point #3</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>  
 
       <div class="row content-subheader">
         <!--<h3>Find a lineup you want to share?  Let me know about it here!</h3>-->
@@ -327,11 +339,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/chapter2.js"></script>
     <script src="scripts/chapters5and6.js"></script>
+    <script src="scripts/chapter11.js"></script>
   </body>
 </html>
