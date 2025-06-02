@@ -176,6 +176,27 @@ ul {
     list-style: none;
 }
 
+/* Style Rules for the Mine Lineup Image Gallery */
+div #gallery {
+    padding: 0em 2%;
+}
+#gallery img {
+    margin: 1% 1%;
+    width: 46%;
+    box-shadow: 3px 3px 5px #2C2D33;
+}
+div #buttons{
+    margin: 1em 25%;
+}
+
+#buttons button {
+    margin: .25em .25em;
+    background-color: #D29E49;
+    border: none;
+    border-radius: .25em;
+    box-shadow: 2px 2px 2px #2C2D33;
+}
+
 /* Style rules for hero image and header */
 .hero {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url(../images/peni-parker-hero-image.jpg);
