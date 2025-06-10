@@ -34,7 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Map selection validation
-        const mapSelected = Array.from(mapOptions).some(option => option.checked);
+        let mapSelected = false;
+        for (let i = 0; i < mapOptions.length; i++) {
+            if (mapOptions[i].checked) {
+                mapSelected = true;
+                break;
+            }
+        }
         if (!mapSelected) {
             valid = false;
             errorMessages.push("Please select a map.");
@@ -52,7 +58,8 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             // If all validations pass
             alert("Form submitted successfully!");
-            form.submit(); // Proceed with form submission
+            //Commented out to prevent refresh
+            //form.submit(); 
         }
     });
 });
